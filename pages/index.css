@@ -1,0 +1,299 @@
+/*========================================================================================================================================================*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  body {
+    font-weight: 400;
+    background-color: #f1f1f1;
+    color: #121723;
+    line-height: 1;
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  input,
+  button,
+  textarea {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: inherit;
+  }
+  button {
+    cursor: pointer;
+    color: inherit;
+    background-color: inherit;
+  }
+  a {
+    color: inherit;
+  }
+  a:link,
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  ul li {
+    list-style: none;
+  }
+  img {
+    vertical-align: top;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: inherit;
+    font-size: inherit;
+  }
+  
+  /*========================================================================================================================================================*/
+  
+  @font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+  }
+  
+  h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 56px;
+  }
+  
+  h2 {
+    font-family: "IBM Plex Mono", monospace;
+    color: #121723;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    margin: 12px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    flex-direction: column;
+    height: min-content;
+  }
+  
+  h3 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 26px;
+  }
+  
+  p {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 14px;
+  }
+  .header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1160px;
+    gap: 20px;
+  }
+  .links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header {
+    padding: 30px 0px 16px;
+    background-color: white;
+    border-bottom: 1px solid #a1a6b4;
+  }
+  .link {
+    color: #000;
+    font-weight: 700;
+  }
+  .main-container {
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  .footer {
+    background-color: #121723;
+  }
+  .menu-footer_item {
+    color: #fff;
+    font-weight: 700;
+  }
+  .footer_bottom {
+    color: #a1a6b4;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_top {
+    border-bottom: 1px solid #a1a6b4;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0px;
+    gap: 20px;
+  }
+  .footer_container {
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  .menu-footer_list {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 16px;
+  }
+  .subtitle {
+    font-weight: 700;
+    margin: 24px 0px;
+  }
+  .container__title {
+    font-weight: 700;
+    margin: 0px 0px 10px;
+  }
+  .container__text {
+    font-size: 20px;
+  }
+  .footer_copy {
+    font-weight: 700;
+  }
+  .page_container{
+    background-color: #fff;
+   max-width: 1100px;
+    padding: 48px;
+    border-radius: 50px;
+    gap: 32px;
+ }
+ .content{
+   width: 1,044px;
+ gap: 24px;
+ }
+ .page_container_title{
+   color:#121723;
+ font-family: Anonymous Pro;
+ font-size: 48px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 100%;
+ margin: 32px 0px 0px;
+ max-width: 300px;
+ }
+ .page_container_info{
+   color: #121723;
+ font-family: Anonymous Pro;
+ font-size: 36px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 100%;
+ max-width: 300px;
+ margin: 24px 0px;
+ }
+ .page_container_text{
+   font-family: Anonymous Pro;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 28px;
+   letter-spacing: 0em;
+   text-align: left;
+   }
+   .article{
+     color: #121723;
+ font-family: Anonymous Pro;
+ font-size: 30px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+   }
+ .page_item{
+   color: #121723;
+ font-family: Anonymous Pro;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ }
+ .page_container_image{
+   width: 100%;
+   object-fit: cover;
+ }
+ .text_info{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ 
+ }
+ .article{
+  border-bottom: 1px solid #121723;
+  padding:  20px 0px;
+ }
+ .article_small{
+   color: #121723;
+ font-family: Anonymous Pro;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ }
+.page_container_text{
+    margin: 0px 0px 20px;
+}
+
+  .page_container_image:hover {
+    transform: scale(1.1);
+  }
+  @media screen and (max-width: 400px){
+   .page_container_info{
+    font-size: 20px;
+   }
+    .header_container{
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+    .footer_top{
+      justify-content: center;
+        flex-wrap: wrap;
+    }
+    .text_info{
+        grid-template-columns:1fr;
+    }
+    .page_container{
+      padding: 24px;
+      margin: 32px 16px;
+      border-radius: 12px;
+    }
+    .page_container_title{
+      font-size: 32px;
+    }
+    .article{
+      font-size: 24px;
+    }
+    .article_small{
+      font-size: 16px;
+    }
+    .texts{
+      font-size: 20px;
+    }
+}
